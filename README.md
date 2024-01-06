@@ -1,5 +1,15 @@
 # bsd-knowledge-base
 
+## FreeBSD
+
+https://stackoverflow.com/questions/49656395/how-to-boot-freebsd-image-under-qemu
+
+```
+wget https://download.freebsd.org/ftp/releases/VM-IMAGES/14.0-RELEASE/amd64/Latest/FreeBSD-14.0-RELEASE-amd64.raw.xz
+xz -d FreeBSD-14.0-RELEASE-amd64.raw.xz
+qemu-system-x86_64 -drive file=FreeBSD-14.0-RELEASE-amd64.raw,format=raw -enable-kvm
+```
+
 ## NetBSD
 
 ```
