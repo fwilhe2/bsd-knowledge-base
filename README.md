@@ -18,3 +18,7 @@ qemu-system-x86_64 -drive file=netbsd.img,format=raw -net nic -net user,hostfwd=
 ```
 
 http://netbsd.org/docs/guide/en/chap-boot.html#chap-boot-ssh
+
+## Links
+
+https://rubenerd.com/basics-of-freebsd-services/
